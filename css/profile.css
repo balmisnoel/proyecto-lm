@@ -1,0 +1,207 @@
+/* INICIO DE FOTO DE PERFIL */
+
+/* AQUI DE DEFINO COMO QUIERO QUE SALGA LA FOTO DE PERFIL */
+
+body .perfil {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* DEFINO EL TAMAÑO, REDONDEO LOS BORDES Y EL MARGEN CON ARRIBA */
+
+body .perfil .imagendeperfil {
+    border-radius: 100%;
+    width: 12rem;
+    margin-top: 4em;
+}
+
+/* AQUI DEFINO EL TEXTO DE ABAJO DE LA FOTO DE PERFIL, MODIFICO TAMAÑO
+DE LA FUENTE, MARGEN DE ARRIBA, FUENTE EN NEGRITA, QUE NO CAMBIE EL CURSOR
+Y EL MARGEN DE ABAJO */
+
+body .perfil span {
+    font-size: 1.7em;
+    margin-top: 1em;
+    font-weight: bold;
+    cursor: default;
+    margin-bottom: 5%;
+}
+
+/* FIN DE LA FOTO DE PERFIL */
+
+/* INICIO DE DEFINICION DE LAS CAJAS FLOTANTES */
+
+/* AQUI DEFINO EL TAMAÑO QUE QUIERO QUE TENGA LAS CAJAS DE LA IZQUIERDA
+QUE FLOTEN EN LA IZQUIERDA, LA DIRECCION QUE QUIERO QUE TOMEN,
+QUE NO SE ACTIVE EL CURSOR Y EL ESPACIO ENTRE CAJA Y CAJA */
+
+.espacios .izquierda{
+    width: 30%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    gap: 2vh;
+}
+
+/* AQUI DEFINO EL TAMAÑO QUE QUIERO QUE TENGA LA CAJA DE LA DERECHA Y 
+QUE FLOTE A LA IZQUIERDA */
+
+.espacios .derecha{
+    width: 70%;
+    float: left;
+}
+
+/* AQUI DEFINO LOS ESPACIOS QUE QUIERO A IZQUIERDA Y DERECHA DE LAS
+CAJAS FLOTANTES */
+
+.espacios{
+    background-color: white;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+/* FIN DE LA DEFINICION DE LAS CAJAS FLOTANTES */
+
+/* INICIO DE ESTILOS DE CAJAS FLOTANTES  */
+
+/* AQUI DEFINO EL SOMBREADO DE LAS CAJAS Y LOS BORDES REDONDEADOS */
+
+.espacios .izquierda .personal, .espacios .izquierda .ediciones,
+.espacios .derecha .publicaciones {
+    box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* AQUI DEFINO EL TAMAÑO DE LAS CAJAS DE LA IZQUIERDA */
+
+.espacios .izquierda .personal, .espacios .izquierda .ediciones{
+    height: 39vh;
+}
+
+/* AQUI DEFINO EL TAMAÑO DE LA CAJA DE LA DERECHA, EL MARGEN DE LA
+IZQUIERDA, EL RELLENO DE LA IZQUIERDA Y DERECHA*/
+
+.espacios .derecha .publicaciones {
+    height: 80vh;
+    margin-left: 5vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+/* AQUI PONGO UN MARGEN ABAJO DE LAS CAJAS */
+
+.espacios .izquierda .ediciones, .espacios .derecha{
+    margin-bottom: 10vh;
+}
+
+/* FIN DE ESTILOS DE LAS CAJAS FLOTANTES */
+
+/* INICIO DE ESTILO DE DATOS DENTRO DE CAJAS FLOTANTES */
+
+/* AQUI MODIFICO LA LISTA DESORDENADA, LE QUITO EL ESTILO
+PREDETERMINADO, LE METO UN RELLENO, UN MARGEN IZQUIERDO Y DERECHO */
+
+.espacios .izquierda ul{
+    list-style: none;
+    padding: 3vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+/* AQUI LE METO UN RELLENO A LAS FILAS */
+
+.espacios .izquierda li{
+    padding-bottom: 5%;
+}
+
+/* MODIFICO EL TAMAÑO DE LA NEGRITA */
+
+.espacios .izquierda li b{
+    font-size: 20px;
+}
+
+/* ALINEO EL H1 AL CENTRO, Y LE METO UN RELLENO SUPERIOR */
+
+.espacios h1{
+    text-align: center;
+    padding-top: 4vh;
+}
+
+/* MODIFICO LOS BOTONES DE CONFIGURACION ALINEANDOLOS EN COLUMNA
+METIENDO UNA SEPARACION ENTRE BOTON Y BOTON, ALINEANDOLOS AL CENTRO
+Y PONIENDO UN MARGEN SUPERIOR */
+
+.espacios .izquierda .ediciones .botones{
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+/* ESTILO DE LOS BOTONES FONDO BLANCO, BORDES REDONDEADOS, UN BORDE SOLIDO,
+COLOR DE LA LETRA, RELLENO INTERIOR, TAMAÑO DE FUENTE, TIPO DE CURSOR
+Y TAMAÑO DEL BOTON*/
+
+.espacios .izquierda .ediciones .botones button {
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid black;
+    color: black;
+    padding: 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 60%;
+    transition: all .2s ease-in
+}
+
+/* ESTILO DE LOS BOTONES CUANDO SE PASA EL RATON POR ENCIMA SE CAMBIA
+COLOR DEL FONDO Y SE CAMBIA EL COLOR DE LA LETRA */
+
+.espacios .izquierda .ediciones .botones button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ESTILO DEL BOTON DE CERRAR SESION DIFERENTE A LOS DEMAS */
+
+.espacios .izquierda .ediciones .botones button:hover:nth-child(4){
+    background-color: rgb(165, 0, 0);
+    color: white;
+}
+
+/* AQUI CAMBIO EL TAMAÑO DE LA IMAGENES DE OFERTAS ACEPTADAS Y 
+PONGO UN ESPACIO ENTRE FILA Y FILA */
+
+.espacios .derecha .publicaciones .imagenoferta{
+    width: 12rem;
+    gap: 1vh;
+}
+
+/* PONGO UN MARGEN ABAJO DE OFERTAS ACEPTADAS */
+
+.espacios .derecha .publicaciones h1{
+    margin-bottom: 2vh;
+}
+
+/* CAMBIA EL RATON CUANDO PASA POR ENCIMA DE LAS FOTOS */
+
+.espacios .derecha .publicaciones .imagenoferta:hover{
+    cursor: pointer;
+}
+
+/* PONGO UN MARGEN ABAJO DE LA PRIMERA FILA DE FOTOS */
+
+.ofertas1{
+    margin-bottom: 1vh;
+}
+
+/* PONGO ESPACIO ALREDEDOR DE LAS IMAGENES */
+
+.ofertas1, .ofertas2{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FIN DE LOS ESTILOS DE DATOS DENTRO DE LAS CAJAS FLOTANTES */

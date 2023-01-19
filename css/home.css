@@ -1,0 +1,45 @@
+.contenedor div:nth-child(3)
+{
+    margin-top: 0.5rem;
+}
+
+.eslogan,
+.descripcion {
+    text-align: center;
+}
+
+.eslogan {
+    padding: 0 20rem;
+}
+
+.descripcion {
+    padding: 0 30rem;
+}
+
+.eslogan h1 {
+    font-size: 6rem;
+    line-height: 6rem;
+}
+
+.descripcion span {
+    font-size: 1.25rem;
+}
+
+.contenedor {
+    justify-content: center;
+}
+
+.contenedor button {
+    background-color: #004E98;
+    border-radius: 25px;
+    border: none;
+    transition: all .2s ease-in;
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.contenedor button:hover {
+    background-color: #5AA9E6;
+}
