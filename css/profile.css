@@ -172,7 +172,7 @@ Y TAMAÑO DEL BOTON*/
 .espacios .izquierda .ediciones .botones button {
     background-color: white;
     border-radius: 25px;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     padding: 0.4rem;
     font-size: 1rem;
