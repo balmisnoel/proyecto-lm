@@ -204,10 +204,6 @@ PONGO UN ESPACIO ENTRE FILA Y FILA */
     gap: 1vh;
 }
 
-.derecha .publicaciones .overlay{
-    width: 6rem;
-}
-
 /* PONGO UN MARGEN ABAJO DE OFERTAS ACEPTADAS */
 
 .espacios .derecha .publicaciones h1{
@@ -229,12 +225,13 @@ PONGO UN ESPACIO ENTRE FILA Y FILA */
 
 /* Aqui defino la opacidad y la posicion de la foto del corazon */
 
-.overlay {
+.derecha .publicaciones .overlay {
     opacity: 0;
     position: absolute;
     margin-left: 6vh;
     margin-top: 10vh;
     transition: all .5s linear;
+    width: 6rem;
 }
 
 /* Aqui defino que cuando se pasa el raton por encima de la foto de 
@@ -245,7 +242,6 @@ la oferta se difumine la foto, baje la opacidad y aparezca el cursor */
     opacity: 0.4;
     cursor: pointer;
     transition: all .2s linear;
-    
 }
 
 /* Aqui defino que cuando se pase el raton por encima suba la opacidad 
@@ -275,5 +271,50 @@ body .perfil .editarperfil:hover p{
     transition: all 0.3s linear
 }
 
-/* FIN DE LOS ESTILOS DE DATOS DENTRO DE LAS CAJAS FLOTANTES */
+/* Aqui modifico el tamaño de la pagina cuando es menor o igual a 800px */
 
+@media  (max-width:800px){
+    .izquierda .personal h1{
+        font-size: 20px;
+    }
+
+    .izquierda .personal ul b{
+        font-size: 13px;
+    }
+
+    .izquierda .personal ul li{
+        font-size: 12px;
+    }
+
+    .izquierda .ediciones h1{
+        font-size: 20px;
+    }
+
+    .espacios .izquierda .ediciones .botones button{
+        width: 60%;
+        font-size: 12px;
+    }
+
+    .derecha .publicaciones .original{
+        height: 11rem;
+        width: 6rem;
+        gap: 5vh;
+    }
+
+    .derecha .publicaciones .ofertas1{
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+
+    .espacios .derecha .publicaciones h1{
+        margin-bottom: 80px;
+    }
+
+    .espacios .derecha .publicaciones .imagen .overlay{
+        width: 3rem;
+        margin-left: 3.5vh;
+        margin-top: 5.5vh;
+    }
+}
+
+/* FIN DE LOS ESTILOS DE DATOS DENTRO DE LAS CAJAS FLOTANTES */
