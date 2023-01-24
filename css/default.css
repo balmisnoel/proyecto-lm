@@ -94,3 +94,24 @@ footer {
 footer label {
     font-size: 1rem;
 }
+
+
+@media (max-width: 1000px)
+{
+    nav ul {
+        gap: 2rem;
+        margin-left: 2rem;
+    }
+
+    nav img {
+        width: 3rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    nav div button {
+        padding: 0.5rem 0.75rem;
+    }
+}

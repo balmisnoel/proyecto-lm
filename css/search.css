@@ -87,11 +87,6 @@
     border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.trabajos .card .info div {
-    display: flex;
-    justify-content: space-between;
-}
-
 .light {
     font-weight: 300;
 }

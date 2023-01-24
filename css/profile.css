@@ -273,7 +273,7 @@ body .perfil .editarperfil:hover p{
 
 /* Aqui modifico el tamaño de la pagina cuando es menor o igual a 800px */
 
-@media  (max-width:800px){
+@media  (max-width:1000px){
     .izquierda .personal h1{
         font-size: 20px;
     }

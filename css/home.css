@@ -86,3 +86,32 @@ hr {
     border-top: 1px solid lightgray;
     background: none;
 }
+
+.fondo {
+    background-image: url("../src/fondo.png");
+}
+
+@media (max-width: 1200px) {
+
+    .eslogan {
+        padding: 0 5rem;
+    }
+
+    .eslogan h1 {
+        font-size: 4rem;
+        line-height: normal;
+    }
+
+    .descripcion {
+        padding: 0 10rem;
+    }
+
+    .oferta {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .oferta img {
+        width: 6rem;
+    }
+}
