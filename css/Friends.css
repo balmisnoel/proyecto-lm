@@ -1,0 +1,69 @@
+*
+{
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    border: 2px solid #004e98 ;
+    border-top-right-radius: 30px;
+}
+
+h1
+{
+    color: #004e98;
+    text-shadow: #032647 3px 2px;
+}
+
+.sobre
+{
+    background-color: #5AA9E6;
+    
+}
+
+nav
+{
+    border-bottom: 1px solid #004e98 ;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    font-size: larger;
+}
+
+main
+{
+    display: flex;
+}
+
+aside
+{
+    width: 70vw;
+}
+
+article
+{
+    width: 30vw;
+    text-align: end;
+}
+
+.amigos
+{
+    border: 1px inset #004e98;
+    font-size: x-large;
+    background-color: #5AA9E6;
+}
+
+.barra
+{
+    width: 300px;
+}
+
+.barra:hover
+{
+    transform: scale(1.5);
+    transition-duration: 1s;
+}
+
+
