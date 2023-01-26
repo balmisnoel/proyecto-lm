@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    height: 89vh;
+}
+
+div {
+    padding: 2rem;
+}
+
+form {
+    border: 3px solid #004E98;
+    width: 400px;
+}
+
+legend {
+    color: #5AA9E6;
+    font-size: 30px;
+}
+
+.rectangulo {
+    border-radius: 10px;
+}
+
+.boton {
+    border-radius: 10px;
+    color: #FCFCFC;
+    background-color: #004E98;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}

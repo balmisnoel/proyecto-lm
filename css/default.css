@@ -96,8 +96,7 @@ footer label {
 }
 
 
-@media (max-width: 1000px)
-{
+@media (max-width: 1000px) {
     nav ul {
         gap: 2rem;
         margin-left: 2rem;

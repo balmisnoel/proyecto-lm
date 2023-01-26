@@ -10,13 +10,13 @@ body .perfil {
 
 /* AQUI DEFINO QUE EL PRIMER DIV LLAMADO PERFIL TENGA UN RELLENO SUPERIOR */
 
-body .perfil:first-of-type{
+body .perfil:first-of-type {
     padding-top: 4rem;
 }
 
 /* DEFINO EL TAMAÑO Y REDONDEO LOS BORDES */
 
-body .perfil .imagendeperfil{
+body .perfil .imagendeperfil {
     border-radius: 100%;
     width: 12rem;
     transition: all 0.3s linear
@@ -36,7 +36,7 @@ body .perfil span {
 
 /* AQUI HE COLOCADO EL TEXTO EN EL CENTRO DE LA IMAGEN Y BAJADO LA OPACIDAD */
 
-body .perfil p{
+body .perfil p {
     position: absolute;
     margin-top: 5.5rem;
     opacity: 0;
@@ -45,7 +45,7 @@ body .perfil p{
 
 /* AQUI HE CREADO OTRO DIV PARA PODER HACER EL HOVER */
 
-body .perfil .editarperfil{
+body .perfil .editarperfil {
     width: 12rem;
     justify-content: center;
     display: flex;
@@ -61,7 +61,7 @@ body .perfil .editarperfil{
 QUE FLOTEN EN LA IZQUIERDA, LA DIRECCION QUE QUIERO QUE TOMEN,
 QUE NO SE ACTIVE EL CURSOR Y EL ESPACIO ENTRE CAJA Y CAJA */
 
-.espacios .izquierda{
+.espacios .izquierda {
     width: 30%;
     float: left;
     display: flex;
@@ -73,7 +73,7 @@ QUE NO SE ACTIVE EL CURSOR Y EL ESPACIO ENTRE CAJA Y CAJA */
 /* AQUI DEFINO EL TAMAÑO QUE QUIERO QUE TENGA LA CAJA DE LA DERECHA Y 
 QUE FLOTE A LA IZQUIERDA */
 
-.espacios .derecha{
+.espacios .derecha {
     width: 70%;
     float: left;
 }
@@ -81,7 +81,7 @@ QUE FLOTE A LA IZQUIERDA */
 /* AQUI DEFINO LOS ESPACIOS QUE QUIERO A IZQUIERDA Y DERECHA DE LAS
 CAJAS FLOTANTES */
 
-.espacios{
+.espacios {
     background-color: white;
     padding-left: 3vh;
     padding-right: 3vh;
@@ -93,7 +93,8 @@ CAJAS FLOTANTES */
 
 /* AQUI DEFINO EL SOMBREADO DE LAS CAJAS Y LOS BORDES REDONDEADOS */
 
-.espacios .izquierda .personal, .espacios .izquierda .ediciones,
+.espacios .izquierda .personal,
+.espacios .izquierda .ediciones,
 .espacios .derecha .publicaciones {
     box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
     border-radius: 10px 10px 10px 10px;
@@ -101,7 +102,8 @@ CAJAS FLOTANTES */
 
 /* AQUI DEFINO EL TAMAÑO DE LAS CAJAS DE LA IZQUIERDA */
 
-.espacios .izquierda .personal, .espacios .izquierda .ediciones{
+.espacios .izquierda .personal,
+.espacios .izquierda .ediciones {
     height: 39vh;
 }
 
@@ -117,7 +119,8 @@ IZQUIERDA, EL RELLENO DE LA IZQUIERDA Y DERECHA*/
 
 /* AQUI PONGO UN MARGEN ABAJO DE LAS CAJAS */
 
-.espacios .izquierda .ediciones, .espacios .derecha{
+.espacios .izquierda .ediciones,
+.espacios .derecha {
     margin-bottom: 10vh;
 }
 
@@ -128,7 +131,7 @@ IZQUIERDA, EL RELLENO DE LA IZQUIERDA Y DERECHA*/
 /* AQUI MODIFICO LA LISTA DESORDENADA, LE QUITO EL ESTILO
 PREDETERMINADO, LE METO UN RELLENO, UN MARGEN IZQUIERDO Y DERECHO */
 
-.espacios .izquierda ul{
+.espacios .izquierda ul {
     list-style: none;
     padding: 3vh;
     margin-left: 3vh;
@@ -137,19 +140,19 @@ PREDETERMINADO, LE METO UN RELLENO, UN MARGEN IZQUIERDO Y DERECHO */
 
 /* AQUI LE METO UN RELLENO A LAS FILAS */
 
-.espacios .izquierda li{
+.espacios .izquierda li {
     padding-bottom: 5%;
 }
 
 /* MODIFICO EL TAMAÑO DE LA NEGRITA */
 
-.espacios .izquierda li b{
+.espacios .izquierda li b {
     font-size: 20px;
 }
 
 /* ALINEO EL H1 AL CENTRO, Y LE METO UN RELLENO SUPERIOR */
 
-.espacios h1{
+.espacios h1 {
     text-align: center;
     padding-top: 4vh;
 }
@@ -158,7 +161,7 @@ PREDETERMINADO, LE METO UN RELLENO, UN MARGEN IZQUIERDO Y DERECHO */
 METIENDO UNA SEPARACION ENTRE BOTON Y BOTON, ALINEANDOLOS AL CENTRO
 Y PONIENDO UN MARGEN SUPERIOR */
 
-.espacios .izquierda .ediciones .botones{
+.espacios .izquierda .ediciones .botones {
     flex-direction: column;
     gap: 1em;
     align-items: center;
@@ -191,7 +194,7 @@ COLOR DEL FONDO Y SE CAMBIA EL COLOR DE LA LETRA */
 
 /* ESTILO DEL BOTON DE CERRAR SESION DIFERENTE A LOS DEMAS */
 
-.espacios .izquierda .ediciones .botones button:hover:nth-child(4){
+.espacios .izquierda .ediciones .botones button:hover:nth-child(4) {
     background-color: rgb(165, 0, 0);
     color: white;
 }
@@ -199,26 +202,27 @@ COLOR DEL FONDO Y SE CAMBIA EL COLOR DE LA LETRA */
 /* AQUI CAMBIO EL TAMAÑO DE LA IMAGENES DE OFERTAS ACEPTADAS Y 
 PONGO UN ESPACIO ENTRE FILA Y FILA */
 
-.derecha .publicaciones .original{
+.derecha .publicaciones .original {
     width: 12rem;
     gap: 1vh;
 }
 
 /* PONGO UN MARGEN ABAJO DE OFERTAS ACEPTADAS */
 
-.espacios .derecha .publicaciones h1{
+.espacios .derecha .publicaciones h1 {
     margin-bottom: 2vh;
 }
 
 /* PONGO UN MARGEN ABAJO DE LA PRIMERA FILA DE FOTOS */
 
-.ofertas1{
+.ofertas1 {
     margin-bottom: 1vh;
 }
 
 /* PONGO ESPACIO ALREDEDOR DE LAS IMAGENES */
 
-.ofertas1, .ofertas2{
+.ofertas1,
+.ofertas2 {
     display: flex;
     justify-content: space-between;
 }
@@ -237,7 +241,7 @@ PONGO UN ESPACIO ENTRE FILA Y FILA */
 /* Aqui defino que cuando se pasa el raton por encima de la foto de 
 la oferta se difumine la foto, baje la opacidad y aparezca el cursor */
 
-.imagen:hover .original{
+.imagen:hover .original {
     filter: blur(1px);
     opacity: 0.4;
     cursor: pointer;
@@ -256,15 +260,15 @@ de la foto */
 de perfil se vuelva gris y se baje la opacidad */
 
 body .perfil .editarperfil:hover .imagendeperfil {
-   opacity: 0.3;
-   filter: grayscale(1);
-   cursor: pointer;
-   transition: all 0.3s linear;
+    opacity: 0.3;
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: all 0.3s linear;
 }
 
 /* Aqui cuando le pasas el raton por encima se sube la opacidad del texto */
 
-body .perfil .editarperfil:hover p{
+body .perfil .editarperfil:hover p {
     opacity: 1;
     cursor: pointer;
     font-weight: bold;
@@ -273,44 +277,44 @@ body .perfil .editarperfil:hover p{
 
 /* Aqui modifico el tamaño de la pagina cuando es menor o igual a 800px */
 
-@media  (max-width:1000px){
-    .izquierda .personal h1{
+@media (max-width:1000px) {
+    .izquierda .personal h1 {
         font-size: 20px;
     }
 
-    .izquierda .personal ul b{
+    .izquierda .personal ul b {
         font-size: 13px;
     }
 
-    .izquierda .personal ul li{
+    .izquierda .personal ul li {
         font-size: 12px;
     }
 
-    .izquierda .ediciones h1{
+    .izquierda .ediciones h1 {
         font-size: 20px;
     }
 
-    .espacios .izquierda .ediciones .botones button{
+    .espacios .izquierda .ediciones .botones button {
         width: 60%;
         font-size: 12px;
     }
 
-    .derecha .publicaciones .original{
+    .derecha .publicaciones .original {
         height: 11rem;
         width: 6rem;
         gap: 5vh;
     }
 
-    .derecha .publicaciones .ofertas1{
+    .derecha .publicaciones .ofertas1 {
         margin-bottom: 50px;
         margin-left: 0px;
     }
 
-    .espacios .derecha .publicaciones h1{
+    .espacios .derecha .publicaciones h1 {
         margin-bottom: 80px;
     }
 
-    .espacios .derecha .publicaciones .imagen .overlay{
+    .espacios .derecha .publicaciones .imagen .overlay {
         width: 3rem;
         margin-left: 3.5vh;
         margin-top: 5.5vh;
