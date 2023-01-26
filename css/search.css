@@ -66,6 +66,7 @@
     border-radius: 0.5rem;
     border: 1px solid lightgray;
     cursor: pointer;
+    box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
 }
 
 .trabajos {
@@ -89,4 +90,8 @@
 
 .light {
     font-weight: 300;
+}
+
+.trabajos .card:hover{
+    background-color: #e8f3fc;
 }
