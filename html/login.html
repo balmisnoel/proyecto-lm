@@ -13,17 +13,15 @@
 
 <body>
     <main>
-        <form>
-            <legend><img src="../src/paleta.png" alt="Logotipo" width="80">
-                <h1>Jobtogo</h1>
-            </legend>
-            <div></div>
-            <div><input type="text" placeholder="Ususario" class="rectangulo"></div>
-            <div><input type="text" placeholder="Contraseña" class="rectangulo"></div>
-            <div><input type="submit" value="Entrar" class="boton"></a></div>
-            <div>No recuerda la contraseña? <a href="../html/Remenber_Password.html">Pulse aquí</a></div>
-            <div><a href="../html/Check_In.html">Crear cuenta</a></div>
-        </form>
+        <div class="contenedorForm">
+            <h1>Jobtogo</h1>
+            <div><input type="text" placeholder="Correo electrónico" class="rectangulo"></div>
+            <div><input type="password" placeholder="Contraseña" class="rectangulo"></div>
+            <button onclick="location.href='../html/home.html'">Iniciar sesion</button>
+            <button onclick="location.href='../html/register.html'">Crear cuenta</button>
+            <div>No recuerda la contraseña? <a href="../html/changepass.html">Pulse aquí</a></div>
+            
+        </div>
     </main>
     <footer>
         <span><b>Jobtogo</b></span>

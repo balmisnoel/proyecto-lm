@@ -5,25 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/default.css">
     <title>Registrarse</title>
 </head>
 
 <body>
-    <header>
-        <img src="paleta.png" alt="logotipo" width="80">
-        <h1>Jobtogo</h1>
-    </header>
+
     <main>
-        <form>
-            <legend>Crear Nueva Cuenta</legend>
-            <div><input type="text" placeholder="Nombre" class="rectangulo"></div>
-            <div><input type="text" placeholder="Apellidos" class="rectangulo"></div>
-            <div><input type="text" placeholder="Usuario" class="rectangulo"></div>
-            <div><input type="email" placeholder="Correo" class="rectangulo"></div>
-            <div><input type="text" placeholder="Contraseña" class="rectangulo"></div>
-            <div><input type="submit" class="boton"></div>
-        </form>
+        <div class="contenedorgrande">
+            <div class="contenedorForm">
+                <h1>Crear Nueva Cuenta</h1>
+                <div><input type="text" placeholder="Nombre y apellidos" class="rectangulo"></div>
+                <div><input type="text" placeholder="Nombre de usuario" class="rectangulo"></div>
+                <div><input type="email" placeholder="Correo electrónico" class="rectangulo"></div>
+                <div><input type="password" placeholder="Contraseña" class="rectangulo"></div>
+                <div><input type="password" placeholder="Confirmar contraseña" class="rectangulo"></div>
+                <button onclick="location.href='../html/login.html'">Crear cuenta</button>
+            </div>
+        </div>
     </main>
     <footer>
         <span><b>Jobtogo</b></span>

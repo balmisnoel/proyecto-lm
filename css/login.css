@@ -1,23 +1,17 @@
 body {
-    max-width: 100vw;
-    min-height: 100vh;
-    margin: 0;
+   margin: 0%;
+   padding: 0%;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100vw;
-    min-height: 90vh;
-}
-
-legend {
-    display: flex;
+    height: 89vh;
 }
 
 h1 {
-    color: #004E98;
+    font-size: 3rem;
 }
 
 form {
@@ -26,23 +20,49 @@ form {
 }
 
 div {
-    padding: 15px;
+    padding: 10px;
 }
 
 .rectangulo {
     border-radius: 10px;
 }
 
-.rectangulo:hover {
-    transform: scale(1, 1.5);
-    transition-duration: 1s;
+button {
+    background-color: #004E98;
+    border-radius: 0.5rem;
+    border: none;
+    transition: all .2s ease-in;
+    color: white;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
 }
 
-.boton {
-    border-radius: 10px;
-    color: #FCFCFC;
-    background-color: #004E98;
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
+button:hover{
+    cursor: pointer;
+    background-color: #01325f;
+}
+
+.contenedorForm {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 1.5rem;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
+    background-color: white;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid lightgray;
+}
+
+input:focus {
+    border: 1px solid #004E98;
+    outline: none;
 }
