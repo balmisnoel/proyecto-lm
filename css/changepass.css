@@ -12,24 +12,48 @@ div {
 }
 
 form {
-    border: 3px solid #004E98;
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
+    background-color: white;
 }
 
-legend {
-    color: #5AA9E6;
-    font-size: 30px;
+form:hover {
+    border: 1px solid #004E98;
 }
 
-.rectangulo {
-    border-radius: 10px;
+h1 {
+    font-size: 1.5rem;;
 }
 
-.boton {
-    border-radius: 10px;
-    color: #FCFCFC;
+input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid lightgray;
+}
+
+input:focus {
+    border: 1px solid #004E98;
+    outline: none;
+}
+
+button {
     background-color: #004E98;
-    width: 100px;
-    height: 40px;
-    font-size: 20px;
+    border-radius: 0.5rem;
+    border: none;
+    transition: all .2s ease-in;
+    color: white;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5AA9E6;
 }
