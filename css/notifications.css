@@ -1,45 +1,9 @@
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #004e98;
-  color: aliceblue;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 20px;
-
-}
-
-.wrapper {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;
-}
-
-header nav {
-  float: right;
-  line-height: 200px;
-}
-
-header nav a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-  line-height: normal;
-  font-size: 20px;
-  font-weight: bold;
-  -webkit-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-
 section {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
   margin-top: 5vh;
+  gap: 3vh;
 }
 
 button {
@@ -51,6 +15,27 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #ff0000;
+  transition: all .2s ease-in;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: #00ff08;
+  transition: all .2s ease-in;
+}
+
+button, .button{
+  border-radius: 10px;
+}
+
+aside h2{
+  margin-left: 3rem;
 }
 
 .button {
@@ -62,6 +47,8 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-left: 5.5rem;
+  box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
 }
 
 header nav a:hover {
@@ -75,6 +62,7 @@ header nav a:hover {
   padding: 10px;
   transition: all 0.5s ease;
   max-width: 500px;
+  box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
 
 }
 
@@ -90,6 +78,7 @@ header nav a:hover {
   transition: all 0.5s ease;
   max-width: 500px;
   color: aliceblue;
+  box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
 }
 
 .megusta:hover {
@@ -103,6 +92,7 @@ header nav a:hover {
   padding: 10px;
   transition: all 0.5s ease;
   max-width: 500px;
+  box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
 
 }
 
@@ -117,21 +107,30 @@ header nav a:hover {
 
 aside {
   float: right;
-  width: 200px;
-  margin-top: 2vh;
-  margin-right: 5rem;
-
+  margin-right: 7rem;
+  gap: 5vh;
+  margin-top: 5vh;
 }
 
 .contenedor2 {
-  height: 72vh;
+  height: 70vh;
   gap: 1.25rem;
 }
 
-.ofertas>p {
+.ofertas>div {
   background-color: #f1f1f1;
   border-radius: 10px;
   padding: 10px;
   transition: all 0.5s ease;
   max-width: 500px;
+  width: 20rem;
+  box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
+}
+
+.ofertas{
+  gap: 5vh;
+}
+
+section h2{
+  margin-left: 12rem;
 }
