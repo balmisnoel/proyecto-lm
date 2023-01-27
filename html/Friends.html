@@ -5,51 +5,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/default.css">
     <link rel="stylesheet" href="../css/friends.css">
     <title>Amigos</title>
 </head>
 
 <body>
-    <header>
-        <img src="paleta.png" alt="logotipo" width="80">
-        <h1>Jobtogo</h1>
-    </header>
-    <nav class="menu" id="menu">
-        <span>
-            inicio
-        </span>
-        <span>
-            amigos
-        </span>
-        <span>
-            <a href=""><img src="https://cevipyme.es/Style%20Library/img/log-mas.png" alt="publicar" width="25"></a>
-        </span>
-        <span>
-            para ti
-        </span>
+    <nav>
+        <div>
+            <img src="../src/negro.png" alt="logo">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./search.html">Buscar</a></li>
+                <li><a>Amigos</a></li>
+                <li><a href="./profile.html">Perfil</a></li>
+            </ul>
+        </div>
+        <div class="botones">
+            <button onclick="location.href='#'">Entrar</button>
+            <button onclick="location.href='#'">Registrarse</button>
+        </div>
     </nav>
-    <main>
-        <aside>
-            <div class="amigos">
-                <img src="" alt="perfil"> Samir <img src="sobre.png" class="sobre" alt="mensaje" width="35">
+    <section class="contenedor">
+        <div class="busqueda">
+            <input type="text" placeholder="Buscar amigos">
+            <button>Buscar</button>
+        </div>
+        <h1>Lista de amigos</h1>
+        <div class="lista">
+            <div class="card">
+                <img src="../src/perfil1.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Pedro</span>
+                    <span class="light">@pedroelchulo</span>
+                </div>
             </div>
-            <div class="amigos">
-                <img src="" alt="perfil"> Noel <img src="sobre.png" class="sobre" alt="mensaje" width="35">
+            <div class="card">
+                <img src="../src/perfil2.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Juan</span>
+                    <span class="light">@juandiablo</span>
+                </div>
             </div>
-            <div class="amigos">
-                <img src="" alt="perfil"> Saul <img src="sobre.png" class="sobre" alt="mensaje" width="35">
+            <div class="card">
+                <img src="../src/perfil3.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Maria</span>
+                    <span class="light">@mariaflow</span>
+                </div>
             </div>
-            <div class="amigos">
-                <img src="" alt="perfil"> Antonio <img src="sobre.png" class="sobre" alt="mensaje" width="35">
+            <div class="card">
+                <img src="../src/perfil4.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Carlos</span>
+                    <span class="light">@carlosflow</span>
+                </div>
             </div>
-            <div class="amigos">
-                <img src="" alt="perfil"> Christian <img src="sobre.png" class="sobre" alt="mensaje" width="35">
+            <div class="card">
+                <img src="../src/perfil5.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Sofia</span>
+                    <span class="light">@sofiaflow</span>
+                </div>
             </div>
-        </aside>
-        <article>
-            <input type="search" placeholder="buscar amigos..." class="barra">
-        </article>
-    </main>
+            <div class="card">
+                <img src="../src/perfil6.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Jorge</span>
+                    <span class="light">@jorgeflow</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../src/perfil7.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Ana</span>
+                    <span class="light">@anaflow</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../src/perfil8.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Diego</span>
+                    <span class="light">@diegoflow</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../src/perfil5.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Sofia</span>
+                    <span class="light">@sofiaflow</span>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../src/perfil6.jpg" alt="Foto de perfil">
+                <div>
+                    <span>Jorge</span>
+                    <span class="light">@jorgeflow</span>
+                </div>
+            </div>
+    </section>
+    <footer>
+        <span><b>Jobtogo</b></span>
+        <span><b>© Copyright 2022</b></span>
+    </footer>
 </body>
 
 </html>

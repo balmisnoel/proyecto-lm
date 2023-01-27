@@ -1,56 +1,74 @@
-* {
-    font-family: 'Dancing Script', cursive;
-    margin: 0;
+.contenedor {
+    gap: 3rem;
+    height: 100vh;
 }
 
-header {
+.busqueda {
     display: flex;
-    border: 2px solid #004e98;
-    border-top-right-radius: 30px;
+    gap: 1rem;
 }
 
-h1 {
-    color: #004e98;
-    text-shadow: #032647 3px 2px;
+.busqueda input {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    background: none;
+    background-color: white;
 }
 
-.sobre {
-    background-color: #5AA9E6;
-
+.busqueda input:focus {
+    outline: 1px solid #004E98;
 }
 
-nav {
-    border-bottom: 1px solid #004e98;
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    font-size: larger;
+.busqueda button {
+    background-color: #004E98;
+    border-radius: 0.5rem;
+    border: none;
+    transition: all .2s ease-in;
+    color: white;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-main {
-    display: flex;
-}
-
-aside {
-    width: 70vw;
-}
-
-article {
-    width: 30vw;
-    text-align: end;
-}
-
-.amigos {
-    border: 1px inset #004e98;
-    font-size: x-large;
+.busqueda button:hover {
     background-color: #5AA9E6;
 }
 
-.barra {
-    width: 300px;
+.lista {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 50vw;
 }
 
-.barra:hover {
-    transform: scale(1.5);
-    transition-duration: 1s;
+.lista .card {
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
+}
+
+.lista .card div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75rem;
+}
+
+.lista .card img {
+    width: 8rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.lista .card:hover {
+    background-color: #e8f3fc;
+}
+
+.light {
+    font-weight: 300;
 }
