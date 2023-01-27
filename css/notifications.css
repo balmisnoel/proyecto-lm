@@ -6,7 +6,7 @@ section {
   gap: 3vh;
 }
 
-button {
+.contenedor2 button {
   background-color: #b34040;
   border: none;
   color: white;
@@ -18,19 +18,19 @@ button {
   box-shadow: -1px -1px 20px -1px rgb(211, 209, 209);
 }
 
-button:hover{
+.contenedor2 button:hover{
   cursor: pointer;
   background-color: #ff0000;
   transition: all .2s ease-in;
 }
 
-.button:hover{
+.contenedor2 .button:hover{
   cursor: pointer;
   background-color: #00ff08;
   transition: all .2s ease-in;
 }
 
-button, .button{
+.contenedor2 button, .contenedor2 .button{
   border-radius: 10px;
 }
 
@@ -38,7 +38,7 @@ aside h2{
   margin-left: 3rem;
 }
 
-.button {
+.contenedor2 .button {
   background-color: #4CAF50;
   border: none;
   color: white;

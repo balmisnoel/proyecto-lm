@@ -53,7 +53,12 @@ nav ul li a:hover {
 
 .botones {
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
+}
+
+.botones img {
+    width: auto;
+    cursor: pointer;
 }
 
 nav div button {
