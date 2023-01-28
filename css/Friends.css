@@ -1,6 +1,6 @@
 .contenedor {
     gap: 3rem;
-    height: 100vh;
+    height: 80vh;
 }
 
 .busqueda {
@@ -71,4 +71,19 @@
 
 .light {
     font-weight: 300;
+}
+
+@media (max-width: 1400px) {
+    .lista {
+        width: 90vw;
+    }
+    .contenedor {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .contenedor {
+        height: 140vh;
+    }
 }
